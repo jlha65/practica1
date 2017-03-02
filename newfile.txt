@@ -1,0 +1,19 @@
+git init                    //Inicia servicio git
+git status                  //Indica cambios o status
+git add "filename"          //agrega archivo al repositorio
+git add .                   //agrega todos los archivos faltantes al repositorio
+git diff "filename"         //muestra diferencias en archivo nuevo y viejo
+git commit -m "descripcion" //Aplica los cambios en el repositorio
+touch "filename"            //crea un archivo
+git log                     //Muestra historial de commit
+git remote add origin git@github.com:"extension.git"  //Agregar master
+git remote -v               //Muestra los remotes agregados y sus direcciones
+git push origin master      //Manda el commit al git
+git reset "filename"        //Remueve del repositorio el archivo agregado
+git checkout "filename"     //Descarta los cambios del archivo hechos despues del add
+git checkout "branch name"  //Cambias de rama de trabajo
+git merge "branch name"     //Une la rama a la rama actual
+git branch                  //Muestra branches
+git branch "branch name"    //crea una branch
+git branch -d "branch name" //Borra un branch
+git branch -b "branch name" //Crea un branch y te mueve a el
