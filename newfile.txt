@@ -17,3 +17,5 @@ git branch                  //Muestra branches
 git branch "branch name"    //crea una branch
 git branch -d "branch name" //Borra un branch
 git branch -b "branch name" //Crea un branch y te mueve a el
+git pull origin master      //Baja los cambios en master
+git pull origin "branch"    //Baja los cambios de la branch
